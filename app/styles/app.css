@@ -1,0 +1,17 @@
+.main{
+  margin-top: 50px;
+}
+
+.done{
+  margin: 5px;
+  text-align: center;
+  height: 50px;
+  background-color: #009688;
+}
+
+.undone{
+  margin: 5px;
+  text-align: center;
+  height: 50px;
+  background-color: #e0f2f1;
+}

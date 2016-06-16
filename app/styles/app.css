@@ -1,5 +1,5 @@
 .main{
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .done{
@@ -18,4 +18,16 @@
 
 .row .col.s1{
   margin-left: 5px;
+}
+
+a{
+  color: #333;
+}
+
+.done:hover{
+  background-color: #26c6da;
+}
+
+.undone:hover{
+  background-color: #26c6da;
 }

@@ -1,7 +1,7 @@
 <div class="container main">
   <div class="row valign-wrapper">
     {{#each model as |day|}}
-      <div class="col s1 done">
+      <div class="col s1 {{day.status}}">
         {{day-tile day=day}}
       </div>
     {{/each}}

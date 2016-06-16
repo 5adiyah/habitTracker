@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyA4hYqLHw5G51RjLarBWld9Ami1fORMZpE",
+      authDomain: "habittracker-10089.firebaseapp.com",
+      databaseURL: "https://habittracker-10089.firebaseio.com",
+      storageBucket: "habittracker-10089.appspot.com",
+    },
     modulePrefix: 'code100days',
     environment: environment,
     baseURL: '/',

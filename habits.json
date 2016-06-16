@@ -1,0 +1,20 @@
+{ "days": [{
+    "date": 1,
+    "hours": 1,
+    "status": "done",
+    "repoLink": "https://github.com/5adiyah/jsMessageBoard/",
+    "description": "This took about 1 hours to finish"
+  }, {
+    "date": 2,
+    "hours": 2,
+    "status": "done",
+    "repoLink": "https://github.com/5adiyah/jsMessageBoard/",
+    "description": "This took about 2 hours to finish"
+  }, {
+    "date": 3,
+    "hours": 1,
+    "status": "done",
+    "repoLink": "https://github.com/5adiyah/jsMessageBoard/",
+    "description": "This took about 1 hours to finish"
+  }]
+}

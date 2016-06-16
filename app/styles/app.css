@@ -15,3 +15,7 @@
   height: 50px;
   background-color: #e0f2f1;
 }
+
+.row .col.s1{
+  margin-left: 5px;
+}

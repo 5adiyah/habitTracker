@@ -1,0 +1,26 @@
+{{#if updateDayForm}}
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+          {{input value=date type="text" }}
+          <label class="active">Date:</label>
+        </div>
+        <div class="input-field col s4">
+          {{input value=hours type="text" }}
+          <label class="active">Hours</label>
+        </div>
+        <div class="input-field col s4">
+          {{input value=repoLink type="text" }}
+          <label class="active">Repo Link:</label>
+        </div>
+        <div class="input-field col s12 textArea">
+          <textarea id="textarea1" placeholder="Description" class="materialize-textarea"></textarea>
+        </div>
+      </div>
+      <button {{action 'updateDay' day}} type="button" class="btn button floatRight" name="button">Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updateDay'}} type="button" class="btn button floatRight" name="button">Edit</button>
+{{/if}}

@@ -2,11 +2,18 @@
   margin-top: 35px;
 }
 
+.main h3{
+  font-family: 'Megrim', cursive;
+  color: #02a5b9;
+  border-bottom: solid 2px #eee;
+  display: inline-block;
+}
+
 .done{
   margin: 5px;
   text-align: center;
   height: 50px;
-  background-color: #009688;
+  background-color: #26c6da;
 }
 
 .undone{
@@ -25,9 +32,17 @@ a{
 }
 
 .done:hover{
-  background-color: #26c6da;
+  background-color: #ffb74d;
 }
 
 .undone:hover{
-  background-color: #26c6da;
+  background-color: #ffb74d;
+}
+
+.textArea {
+  margin-top: -10px;
+}
+
+.floatRight{
+  float: right;
 }
